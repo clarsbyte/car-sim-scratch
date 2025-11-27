@@ -1,0 +1,9 @@
+/home/clarissa/Documents/pers-robotics/car-scratch/src/build/sim/CMakeFiles/uninstall.dir
+/home/clarissa/Documents/pers-robotics/car-scratch/src/build/sim/CMakeFiles/sim_uninstall.dir
+/home/clarissa/Documents/pers-robotics/car-scratch/src/build/sim/CMakeFiles/test.dir
+/home/clarissa/Documents/pers-robotics/car-scratch/src/build/sim/CMakeFiles/edit_cache.dir
+/home/clarissa/Documents/pers-robotics/car-scratch/src/build/sim/CMakeFiles/rebuild_cache.dir
+/home/clarissa/Documents/pers-robotics/car-scratch/src/build/sim/CMakeFiles/list_install_components.dir
+/home/clarissa/Documents/pers-robotics/car-scratch/src/build/sim/CMakeFiles/install.dir
+/home/clarissa/Documents/pers-robotics/car-scratch/src/build/sim/CMakeFiles/install/local.dir
+/home/clarissa/Documents/pers-robotics/car-scratch/src/build/sim/CMakeFiles/install/strip.dir

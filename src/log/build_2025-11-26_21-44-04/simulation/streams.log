@@ -1,0 +1,20 @@
+[0.413s] Invoking command in '/home/clarissa/Documents/pers-robotics/car-scratch/src/simulation': PYTHONPATH=/home/clarissa/Documents/pers-robotics/car-scratch/src/build/simulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/clarissa/Documents/pers-robotics/car-scratch/src/install/simulation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/simulation build --build-base /home/clarissa/Documents/pers-robotics/car-scratch/src/build/simulation/build install --record /home/clarissa/Documents/pers-robotics/car-scratch/src/build/simulation/install.log --single-version-externally-managed install_data
+[0.556s] running egg_info
+[0.556s] writing ../build/simulation/simulation.egg-info/PKG-INFO
+[0.557s] writing dependency_links to ../build/simulation/simulation.egg-info/dependency_links.txt
+[0.557s] writing entry points to ../build/simulation/simulation.egg-info/entry_points.txt
+[0.557s] writing requirements to ../build/simulation/simulation.egg-info/requires.txt
+[0.557s] writing top-level names to ../build/simulation/simulation.egg-info/top_level.txt
+[0.558s] reading manifest file '../build/simulation/simulation.egg-info/SOURCES.txt'
+[0.559s] writing manifest file '../build/simulation/simulation.egg-info/SOURCES.txt'
+[0.559s] running build
+[0.559s] running build_py
+[0.559s] running install
+[0.559s] running install_lib
+[0.560s] running install_data
+[0.560s] running install_egg_info
+[0.561s] removing '/home/clarissa/Documents/pers-robotics/car-scratch/src/install/simulation/lib/python3.10/site-packages/simulation-0.0.0-py3.10.egg-info' (and everything under it)
+[0.561s] Copying ../build/simulation/simulation.egg-info to /home/clarissa/Documents/pers-robotics/car-scratch/src/install/simulation/lib/python3.10/site-packages/simulation-0.0.0-py3.10.egg-info
+[0.561s] running install_scripts
+[0.573s] writing list of installed files to '/home/clarissa/Documents/pers-robotics/car-scratch/src/build/simulation/install.log'
+[0.586s] Invoked command in '/home/clarissa/Documents/pers-robotics/car-scratch/src/simulation' returned '0': PYTHONPATH=/home/clarissa/Documents/pers-robotics/car-scratch/src/build/simulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/clarissa/Documents/pers-robotics/car-scratch/src/install/simulation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/simulation build --build-base /home/clarissa/Documents/pers-robotics/car-scratch/src/build/simulation/build install --record /home/clarissa/Documents/pers-robotics/car-scratch/src/build/simulation/install.log --single-version-externally-managed install_data
