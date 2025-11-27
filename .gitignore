@@ -2,6 +2,9 @@
 build/
 install/
 log/
+src/build/
+src/install/
+src/log/
 
 # Python cache
 __pycache__/
