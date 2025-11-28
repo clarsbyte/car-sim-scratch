@@ -2,6 +2,7 @@
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="my_robot">
 
     <xacro:include filename="ros2_control.xacro" />
+    <xacro:include filename="lidar.xacro" />
 
     <!-- BASE LINK (free floating) -->
     <link name="base_link"></link>
@@ -12,6 +13,20 @@
         <child link="body_link"/>
         <origin xyz="0 0 0" rpy="0 0 0"/>
     </joint>
+
+
+    <!-- BASE_FOOTPRINT LINK -->
+
+    <joint name="base_footprint_joint" type="fixed">
+        <parent link="base_link"/>
+        <child link="base_footprint"/>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+    </joint>
+
+    <link name="base_footprint">
+    </link>
+
+
     <link name="body_link">
     <visual>
         <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
