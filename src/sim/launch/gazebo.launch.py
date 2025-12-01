@@ -38,13 +38,15 @@ def generate_launch_description():
     joint_state_broadcaster_spawner = Node(
         package='controller_manager',
         executable='spawner',
-        arguments=['joint_broad', '--param-file', controller_config]
+        arguments=['joint_broad', '--param-file', controller_config],
+        parameters=[{'use_sim_time': True}]
     )
 
     diff_drive_spawner = Node(
         package='controller_manager',
         executable='spawner',
-        arguments=['diff_cont', '--param-file', controller_config]
+        arguments=['diff_cont', '--param-file', controller_config],
+        parameters=[{'use_sim_time': True}]
     )
 
     # Delay controller spawners to ensure controller_manager is ready

@@ -180,6 +180,10 @@ ros2 topic pub /diff_cont/cmd_vel_unstamped geometry_msgs/msg/Twist \
   "{linear: {x: 0.5, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 0.2}}"
 ```
 
+Run the SLAM
+clarissa@clar-ubuntu:~$ ros2 launch slam_toolbox online_async_launch.py params_file:=./src/sim/config/mappers_params_online_async.yaml use_sim_time:=true
+
+
 ## Robot Configuration
 
 ### Wheel Parameters

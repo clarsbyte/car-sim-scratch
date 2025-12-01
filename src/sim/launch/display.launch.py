@@ -20,11 +20,13 @@ def generate_launch_description():
         ),
         Node(
             package='joint_state_publisher_gui',
-            executable='joint_state_publisher_gui'
+            executable='joint_state_publisher_gui',
+            parameters=[{'use_sim_time': True}]
         ),
         Node(
             package='rviz2',
             executable='rviz2',
-            arguments=rviz_args
+            arguments=rviz_args,
+            parameters=[{'use_sim_time': True}]
         )
     ])
